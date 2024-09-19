@@ -1,0 +1,18 @@
+# Exclude all build folders
+cmake-build-debug/
+cmake-build-release/
+
+# Exclude specific file types
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+
+# CLion specific
+.idea/
+
+# Exclude other files that are not needed
+*.user
+*.log
+
