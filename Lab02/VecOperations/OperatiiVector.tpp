@@ -2,8 +2,6 @@
 // Created by darian on 25/09/24.
 //
 
-#include "OperatiiVector.h"
-
 template<typename T>
 void swap(T& a, T& b)
 {
@@ -44,7 +42,7 @@ void readArrayFromFile(const char* filename, T*& vec, int &n)
 }
 
 template<typename T>
-void WriteArrayToFile(const char* filename, const T* vec, int n)
+void writeArrayToFile(const char* filename, const T* vec, int n)
 {
     std::ofstream file(filename);
     if(!file.is_open()){

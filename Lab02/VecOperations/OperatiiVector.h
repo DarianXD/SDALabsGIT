@@ -51,5 +51,6 @@ bool binary_search(T vec[], int n, T b);
 template<typename T>
 int interpolation_search(const T vec[], int n, const T& target);
 
-
 #endif //LAB02_OPERATIIVECTOR_H
+
+#include "OperatiiVector.tpp"
